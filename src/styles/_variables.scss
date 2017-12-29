@@ -33,55 +33,61 @@
 //  '900': $gray-900
 //), $grays);
 
-// $blue:    #007bff;
-// $indigo:  #6610f2;
-// $purple:  #6f42c1;
-// $pink:    #e83e8c;
-// $red:     #dc3545;
-// $orange:  #fd7e14;
-// $yellow:  #ffc107;
-// $green:   #28a745;
-// $teal:    #20c997;
-// $cyan:    #17a2b8;
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #e990f9;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #7ed321;
+$teal: #20c997;
+$cyan: #17a2b8;
 
-// $colors: ();
-//$colors: map-merge((
-//  'blue':       $blue,
-//  'indigo':     $indigo,
-//  'purple':     $purple,
-//  'pink':       $pink,
-//  'red':        $red,
-//  'orange':     $orange,
-//  'yellow':     $yellow,
-//  'green':      $green,
-//  'teal':       $teal,
-//  'cyan':       $cyan,
-//  'white':      $white,
-//  'gray':       $gray-600,
-//  'gray-dark':  $gray-800
-//), $colors);
+$colors: ();
+$colors: map-merge(
+    (
+        'blue': $blue,
+        'indigo': $indigo,
+        'purple': $purple,
+        'pink': $pink,
+        'red': $red,
+        'orange': $orange,
+        'yellow': $yellow,
+        'green': $green,
+        'teal': $teal,
+        'cyan': $cyan,
+        'white': $white,
+        'gray': $gray-600,
+        'gray-dark': $gray-800
+    ),
+    $colors
+);
 
-// $primary:       $blue;
-// $secondary:     $gray-600;
-// $success:       $green;
-// $info:          $cyan;
-// $warning:       $yellow;
-// $danger:        $red;
-// $light:         $gray-100;
-// $dark:          $gray-800;
+$primary: $purple;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
 
-// $theme-colors: ();
-//$theme-colors: map-merge((
-//  'primary':    $primary,
-//  'secondary':  $secondary,
-//  'success':    $success,
-//  'info':       $info,
-//  'warning':    $warning,
-//  'danger':     $danger,
-//  'light':      $light,
-//  'dark':       $dark
-//), $theme-colors);
-// stylelint-enable
+$theme-colors: ();
+$theme-colors: map-merge(
+    (
+        'primary': $primary,
+        'secondary': $secondary,
+        'success': $success,
+        'info': $info,
+        'warning': $warning,
+        'danger': $danger,
+        'light': $light,
+        'dark': $dark
+    ),
+    $theme-colors
+);
+//stylelint-enable
 
 // Set a specific jump point for requesting color jumps
 // $theme-color-interval:      8%;
@@ -537,9 +543,9 @@
 // $navbar-toggler-font-size:          $font-size-lg;
 // $navbar-toggler-border-radius:      $btn-border-radius;
 
-// $navbar-dark-color:                 rgba($white,.5);
-// $navbar-dark-hover-color:           rgba($white,.75);
-// $navbar-dark-active-color:          $white;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $white;
+$navbar-dark-active-color: $white;
 // $navbar-dark-disabled-color:        rgba($white,.25);
 // $navbar-dark-toggler-icon-bg:       str-replace(url('data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-dark-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E'), '#', '%23');
 // $navbar-dark-toggler-border-color:  rgba($white,.1);
