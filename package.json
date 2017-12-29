@@ -35,6 +35,7 @@
     "*.md": ["prettier --write", "git add"]
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "bootstrap": "4.0.0-beta.2",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0",
