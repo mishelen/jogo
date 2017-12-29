@@ -17,10 +17,7 @@ const authService = {
                     }
                 }
             )
-            .then(res => {
-                console.log(res.data);
-                return res.data.response;
-            });
+            .then(res => res.data.response);
     }
 };
 
