@@ -1,0 +1,12 @@
+.global-header {
+    background: #7ed321;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+
+    &__link--active,
+    &__link--active:focus,
+    &__link--active:hover {
+        text-decoration: underline;
+    }
+}
