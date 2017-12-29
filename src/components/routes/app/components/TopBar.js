@@ -20,7 +20,7 @@ class TopBar extends React.Component {
         return (
             <Navbar className="global-header" color="faded" dark expand="md">
                 <NavbarBrand href="/" title="YogoBear">
-                    <img src="./../../../../images/logo.svg" alt="logo" />
+                    <img src="logo.svg" alt="logo" />
                 </NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
