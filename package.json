@@ -9,10 +9,9 @@
     "test": "jest",
     "test:watch": "jest --watch --coverage",
     "transpile": "NODE_ENV=PRODUCTION webpack -p --config ./webpack/webpack.config.base.babel.js",
-    "hmr:server": "webpack-dev-server --config ./webpack/webpack.config.dev-server.hmr.babel.js",
+    "hmr:server": "NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.dev-server.hmr.babel.js",
     "clean": "rimraf -rf ./dist & rimraf -rf ./public",
-    "precommit": "lint-staged",
-    "prepush": "npm test"
+    "precommit": "lint-staged"
   },
   "jest": {
     "verbose": true,
