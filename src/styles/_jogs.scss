@@ -1,0 +1,16 @@
+.jogs {
+    //&__list {}
+
+    &__add_new,
+    &__add_new:hover,
+    &__add_new:focus {
+        background: transparent !important;
+        border-width: 0 !important;
+    }
+
+    &__add_new--empty {
+        border-radius: 1.5rem;
+        border-width: 3px;
+        font-weight: bold;
+    }
+}

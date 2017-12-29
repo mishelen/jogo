@@ -3,7 +3,7 @@ import JogsList from './JogsList';
 
 const Jogs = () => (
     <article className="jogs">
-        <JogsList />
+        <JogsList jogs={[{ id: 'dsdadasd' }]} />
     </article>
 );
 
