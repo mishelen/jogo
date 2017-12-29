@@ -1,4 +1,4 @@
-import NotFound from './notfound/index';
-import App from './app/index';
+import LetMeIn from './let_me_in';
+import App from './app';
 
-export { NotFound, App };
+export { LetMeIn, App };
